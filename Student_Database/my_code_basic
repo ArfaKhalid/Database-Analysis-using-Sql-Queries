@@ -1,5 +1,6 @@
-# SQL Database-Basics |SQL-Project
-# Create database
+--Create the two tables two tables where we import csv data
+DROP DATABASE IF EXISTS studentdb;
+Create database
 CREATE DATABASE studentdb;
 # Connect to the database
 \c studentdb;
